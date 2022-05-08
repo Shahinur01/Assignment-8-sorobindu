@@ -34,7 +34,7 @@ function FinalResult (){
     
         return {
             totalGpa : gpa,
-            totaoGrade  :  grade,
+            totatalGrade  :  grade,
         }
     
     }
@@ -51,7 +51,7 @@ function FinalResult (){
     cgpa = totalgpa / 3
 
     if(bn < 33 || en < 33 || math < 33  ){
-        finalRejuslt ='Faild';
+        finalRejuslt ='Fail';
     }else if (cgpa > 0 && cgpa < 1) {
         finalRejuslt = ' F'
     }else if (cgpa > 1 && cgpa < 2) {
@@ -70,7 +70,7 @@ function FinalResult (){
 
 
     return {
-        final_cgpa : finalRejuslt == 'F' ? 'Faield'  :   cgpa  ,
+        final_cgpa : finalRejuslt == 'F' ? 'Failed'  :   cgpa  ,
         final_rejuslt : finalRejuslt ,
     }    
 }

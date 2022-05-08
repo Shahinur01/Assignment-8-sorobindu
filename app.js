@@ -11,7 +11,7 @@ let res = new FinalResult();
 
 
 
-for (data of stuList){
+for (data of studentList){
    console.log(`
    Student Name             : ${data.name}
    Student Roll             : ${data.rool}

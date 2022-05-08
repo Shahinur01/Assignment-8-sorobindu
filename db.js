@@ -1,10 +1,10 @@
-const stuList = [
+const studentList = [
 
     {
-        name : 'Raza',
+        name : 'Md Shahinur islam',
         rool :2,
         age : 21,
-        schoolName : 'Chittagong school',
+        schoolName : 'Panchagarh BP govt school',
         bn : 33,
         en : 45,
         math : 70,
